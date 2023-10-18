@@ -1,0 +1,122 @@
+
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: plum;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.nav {
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para a seção de pesquisa */
+.search-section {
+    background-color: pink;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    width: 60%;
+}
+
+.search-button {
+    background-color: plum;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Estilos para a seção de resultados */
+.results-section {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.results-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result-item {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.result-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.result-info {
+    flex-grow: 1;
+}
+
+.result-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.result-artist {
+    color: #777;
+}
+
+/* Adicione outros estilos conforme necessário */
